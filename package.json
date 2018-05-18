@@ -1,0 +1,51 @@
+{
+  "name": "guidebot",
+  "version": "2.0.3",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "node bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-Idiots-Guide/guidebot.git"
+  },
+  "author": "The Idiot's Guide Community",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An-Idiots-Guide/guidebot/issues"
+  },
+  "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "enmap": "^2.5.0",
+    "moment": "^2.22.1",
+    "moment-duration-format": "^2.2.2",
+    "express": "^4.16.3",
+    "superagent": "^3.8.3",
+    "request": "^2.86.0",
+    "gif-search": "^2.0.1",
+    "cpu-stat": "^2.0.1",
+    "google-translate-api": "^2.3.0",
+    "weather-js": "^2.0.0",
+    "querystring": "^0.2.0",
+    "cheerio": "^0.22.0",
+    "snekfetch": "^4.0.0",
+    "xpath": "^0.0.27",
+    "xmldom": "^0.1.27",
+    "overwatch-js": "^1.6.5",
+    "opusscript": "^0.0.6",
+    "util": "^0.10.3",
+    "quick.hook": "^1.3.0",
+    "memejs": "^1.0.4",
+    "figlet": "^1.2.0",
+    "fortnite": "^4.1.1",
+    "isgd": "^1.1.3",
+    "relevant-urban": "^2.0.0",
+    "humanize-duration": "^3.14.0"
+  }
+}
