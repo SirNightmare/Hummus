@@ -28,6 +28,18 @@ fs.readdir("./cmds/", (err, files) => {
     console.log(`${i + 1}: ${f} loaded!`)
     bot.commands.set(props.help.name, props);
   });
+  
+      var cleverbot = require("cleverbot.io");
+    var bot = new cleverbot('GS6xN3FmOdX3aAmg','gigAgcYDhxvpl3mRkcm9bGIT28Z00pZO');
+    var session = "Sylveon DDiscord";
+    bot.setNick("SylveonDiscordBot");
+        if(message.content.indexOf("<@409751964662890508>")!==-1){
+                    message.channel.startTyping();
+            bot.ask(message.content.replace("<@409751964662890508>", ""),function (err, response) {
+                message.reply(response);
+              });
+              message.channel.stopTyping();
+            }
 });
 bot.on("ready", async () => {
     console.log("Bot Ready!");
