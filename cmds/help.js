@@ -106,8 +106,8 @@ module.exports.run = async (bot, message, args) => {
             value: "Rolls a 6 sided dice!"
           },
           {
-            name: "?nsfw",
-            value: "All NSFW commands"
+            name: "?npm (NPM package name)",
+            value: "Searches for the NPM package"
           }
         ],
         timestamp: new Date(),
@@ -171,7 +171,7 @@ module.exports.run = async (bot, message, args) => {
           },
                          {
             name: "?shorten <Url> <What you want it to be called>",
-            value: "SShortens the given link!"
+            value: "Shortens the given link!"
           },
       ],
       timestamp: new Date(),
