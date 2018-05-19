@@ -122,7 +122,10 @@ bot.on("message", async message => {
     .addField("**Ultimate**", "Deadeye")
     .setImage("https://d1u5p3l4wpay3k.cloudfront.net/overwatch_gamepedia/thumb/d/d2/Mccree-portrait.png/264px-Mccree-portrait.png?version=000a91f377fd2d6a99ad43ed6f4bc63c")
     message.channel.send({embed})
-    }         
+    }    
+  if (message.channel.startsWith("Hello")) {
+    message.channel.send("Hi, There")
+  }
         
 
     let messsageArray = message.content.split(" ");
